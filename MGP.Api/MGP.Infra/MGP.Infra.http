@@ -1,0 +1,6 @@
+@MGP.Infra_HostAddress = http://localhost:5187
+
+GET {{MGP.Infra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
