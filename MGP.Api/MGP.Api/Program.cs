@@ -10,6 +10,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     ));
 
 
+builder.Services.AddAutoMapper(cfg =>
+{
+    // add as entidades
+});
+
 builder.Services.AddCors(options =>
 {
     //Liberação dos endpoints para o frontend
