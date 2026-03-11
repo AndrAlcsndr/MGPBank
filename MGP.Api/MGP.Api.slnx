@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="MGP.Api/MGP.Api.csproj" />
+  <Project Path="MGP.Application/MGP.Application.csproj" />
+  <Project Path="MGP.Domain/MGP.Domain.csproj" />
+  <Project Path="MGP.Infra/MGP.Infra.csproj" />
 </Solution>
