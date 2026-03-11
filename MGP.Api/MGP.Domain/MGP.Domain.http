@@ -1,0 +1,6 @@
+@MGP.Domain_HostAddress = http://localhost:5033
+
+GET {{MGP.Domain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
